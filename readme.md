@@ -11,3 +11,9 @@ To address these challenges, we propose an **event uncertainty-aware deep dynami
 3.  **Robust Representation Learning:** To stabilize early-stage predictions, we utilize an attention-based recurrent temporal network initialized with a static token derived from baseline covariates, ensuring robust performance even from the first clinical visit.
 
 Experimental results on two competing-risk benchmarks (PBC2 and MIMIC-III) and a real-world hyperthyroidism cohort demonstrate that our framework significantly improves discrimination and calibration over state-of-the-art dynamic survival baselines.
+
+
+## How to Run
+To execute the model and reproduce the results, please run the following script:
+
+python main.py
