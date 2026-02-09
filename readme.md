@@ -16,4 +16,4 @@ Experimental results on two competing-risk benchmarks (PBC2 and MIMIC-III) and a
 ## How to Run
 To execute the model and reproduce the results, please run the following script:
 
-python main.py
+python main_pbc.py
